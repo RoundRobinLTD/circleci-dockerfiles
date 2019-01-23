@@ -21,6 +21,9 @@ RUN apt-get update \
 # install bower
 RUN npm install --global bower
 
+# install gulp
+RUN npm install --global gulp
+
 # Set timezone to UTC by default
 RUN ln -sf /usr/share/zoneinfo/Etc/UTC /etc/localtime
 
